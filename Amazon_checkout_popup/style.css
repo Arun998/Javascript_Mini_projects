@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.container{
+    display: flex;
+}
+.mobile{
+    width:400px;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    box-shadow: 2px 2px 4px seagreen;
+}
+.mobile img{
+    width: 100%;
+   object-fit: cover;
+}
+#card{
+    width: 50%;
+    position:absolute;
+    top: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    
+}
+.head{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+.head p{
+    padding: 10px;
+}
+.fa-xmark{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 10px;
+   padding: 5px;
+}
+.fa-xmark::before{
+    border: 2px solid rgb(0, 255, 255);
+    border-radius: 5px;
+    margin-right:20px;
+    padding:9px;
+    cursor: pointer;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(255, 248, 248);
+}
+/* .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px; 
+} */
+form{
+    padding: 5px;
+    margin-top: 10px;
+}
+#number{
+    margin-left: 11px;
+}
+input[type="text"]{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.side-menu{
+    padding: 2px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: darkgray;
+    margin-top:-11px;
+    padding:15px;
+    border-top:1px #dad3d3;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+#cancel{
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+    background-color: antiquewhite;
+    margin-right: 55px;
+    cursor: pointer;
+}
+#confirm{
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+    background-color:goldenrod;
+    margin-right: 55px;
+    cursor: pointer;
+}
+#date{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #dad3d3;
+    margin-left: 11px;
+}
+#year{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #dad3d3;
+}
+#payment{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: wheat;
+    cursor: pointer;
+    position: relative;
+    left:40%;
+}
+.form {
+    border-right: 2px solid green;
+}

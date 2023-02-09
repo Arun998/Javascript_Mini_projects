@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0d7a392981.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pop-Up</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="mobile">
+            <img src="./mobile.jpg" alt="samsung">
+            <h3>Samsung Galaxy S23 5G (Green, 8GB, 256GB Storage)</h3>
+            <button id="payment">Buy Now</button>
+        </div>
+    </div>
+    
+    <div id="card">
+        <div class="head">
+            <div><p><b>Enter the card details</b></p></div> 
+            <div><i class="fa fa-xmark" onclick="hide()"> </i> </div>
+        </div>
+        <div class="main">
+            <div class="form">
+                <form action="https://www.amazon.in/dp/B0BT9DVZLZ/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t">
+                    card number <input type="text" id="number"> <br>
+                    Name on card <input type="text" id="name"><br>
+                    Expiry date <select name="date" id="date" ></select>
+                    <select id="year"></select>
+                </form>
+                
+            </div>
+            <div class="side-menu">
+                <p>Amazon accepts all major credit and debit cards:</p>
+                <img src="./pay.png" alt="pay">
+            </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <button id="cancel" onclick="hide()">Cancel</button>
+            <button id="confirm" ><a href="https://www.amazon.in/dp/B0BT9DVZLZ/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t" target="
+                " onclick=" return validate()">Make a Payment</a></button>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
