@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <img src="./amazon.png" alt="amazon logo">
+        </div>
+        <div class="sign-in-card">
+        <form action="https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event" class="form" onsubmit="return validate()">
+            <h2>Sign in</h2>
+            <label for="uname"><b>Email or mobile phone number</b></label>
+            <input type="text" id="uname">
+            <span id="name">
+                <i>!</i> <small>Enter your email or mobile phone number</small></span> <br>
+            <label for="pwd"><b>Password</b></label>
+            <input type="password" id="pwd">
+            <span id="password"><Small>Enter the password</Small></span> <br>
+            <button id="continue">Continue</button> <br>
+            <small>By continuing, you agree to Amazon's <a href="https://www.amazon.in/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=200545940">conditions of use and privacy Notice</a></small>
+        </form>
+        </div>
+    </div>
+    <script src="amazon.js"></script>
+</body>
+</html>

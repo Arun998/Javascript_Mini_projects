@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo img{
+width:50%;
+position: relative;
+left:60px;
+}
+h2{
+font-weight:100px;
+}
+.container{
+position: absolute;
+top:5%;
+}
+.sign-in-card form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width:350px;
+border: 1px #ddd solid;
+background-color: #fff;
+border-radius: 4px;
+}
+.form{
+padding:20px;
+box-sizing: border-box;
+}
+input{
+padding:5px;
+margin-bottom:5px;
+border: 1px solid #a6a6a6;
+border-top-color: #949494;
+border-radius: 3px;
+box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 ;
+
+}
+input[type=text]:focus{
+border-color: #e77600;
+box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+label{
+margin-bottom:5px;
+}
+#continue{
+background-color: #f0c14b;
+border-color:rgb(201, 185, 8) ;
+cursor: pointer;
+padding:5px;
+}
+
+#name,#password{
+color: red;
+display: none;
+}
