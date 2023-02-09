@@ -1,5 +1,5 @@
 # Javascript_Mini_projects <br>
-In these Repository You can find basic projects for beginners <br>
+     In these Repository You can find basic projects for beginners <br>
 ## Amazon payment checkout popup <br>
 ### Preview of the Popup these is created by using html,css,js <br>
 ![Example](https://user-images.githubusercontent.com/78887671/217799884-7e426dc8-192f-401b-adef-99dd069f7b11.png) <br> <br>
