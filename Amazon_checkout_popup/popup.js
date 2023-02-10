@@ -29,6 +29,7 @@ function hide(){
 }
 function validate(){
 let debit = /^[6][\d]{3}[\s][\d]{4}[\s][\d]{4}[\s][\d]{4}$/
+let validName=/^[A-Z]{1,35}/
 let card_num=document.getElementById("number").value;
 let name=document.getElementById("name").value.trim();
 
@@ -52,7 +53,7 @@ if(card_num.length==0 && name.length==0){
       
      }
      else if(card_num.length>0 && name.length>0){
-        if(debit.test(card_num)){
+        if(debit.test(card_num)&&validName.test(name)){
            alert("success")
            return true
         }
